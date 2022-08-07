@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right, #434343, #000000);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.text{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    filter: drop-shadow(0px 0px 2px rgb(0, 183, 255));
+}
+
+h1::after{
+    content: "";
+    display: block;
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+    animation: para 12s alternate 0s infinite;
+    -webkit-box-reflect: below -8px linear-gradient(#ff000000,#0000002e);
+}
+@keyframes para{
+    0%{
+        content: "P";
+    }
+    2%{
+        content: "Pa";
+    }
+    3%{
+        content: "Par";
+    }
+    7%{
+        content: "Pars";
+    }
+    10%{
+        content: "Parsa";
+    }
+    15%{
+        content: "Parsa g";
+    }
+    17%{
+        content: "Parsa gh";
+    }
+    20%{
+        content: "Parsa gho";
+    }
+    24%{
+        content: "Parsa ghor";
+    }
+    26%{
+        content: "Parsa ghorb";
+    }
+    28%{
+        content: "Parsa ghorba";
+    }
+    34%{
+        content: "Parsa ghorban";
+    }
+    37%{
+        content: "Parsa ghorbani";
+    }
+    40%{
+        content: "Parsa ghorbania";
+    }
+    43%{
+        content: "Parsa ghorbanian";   
+    }
+    /* 46%{
+        content: "Parsa ghorbanian";   
+    } */
+    48%{
+        content: "Parsa ghorbania";   
+    }
+    50%{
+        content: "Parsa ghorbani";   
+    }  
+    55%{
+        content: "Parsa ghorban";   
+    }  
+    58%{
+        content: "Parsa ghorba";   
+    }  
+    63%{
+        content: "Parsa ghorb";   
+    }  
+    65%{
+        content: "Parsa ghor";   
+    }  
+    67%{
+        content: "Parsa gho";   
+    }  
+    70%{
+        content: "Parsa gh";   
+    }  
+    73%{
+        content: "Parsa g";   
+    }  
+    75%{
+        content: "Parsa";   
+    }
+    77%{
+        content: "Parsa w";   
+    }
+    79%{
+        content: "Parsa we";   
+    }
+    82%{
+        content: "Parsa web";   
+    }
+    84%{
+        content: "Parsa web d";   
+    }
+    86%{
+        content: "Parsa web de";   
+    }
+    88%{
+        content: "Parsa web dev";   
+    }
+    90%{
+        content: "Parsa web deve";   
+    }
+    94%{
+        content: "Parsa web devel";   
+    }
+    96%{
+        content: "Parsa web develo";   
+    }
+    98%{
+        content: "Parsa web develop";   
+    }
+    99%{
+        content: "Parsa web develope";   
+    }
+    100%{
+        content: "Parsa web developer";   
+    }
+
+}
