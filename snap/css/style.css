@@ -1,0 +1,122 @@
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    font-weight: bold;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+body{
+    direction: rtl;
+}
+.king{
+    height: 100vh;
+}
+.king>.row:nth-of-type(1){
+    height: 76px;
+}
+.king>.row:nth-of-type(2){
+    z-index: 2;
+    top: 9.9%;
+    height: 89%;
+}
+.king>.row>.box1.box1{
+    display: flex;
+    align-items: center;
+}
+.king>.row>.box1>ul>li>a{
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    margin: 0 10px !important;
+}
+.king>.row>.box1>ul>li:nth-of-type(2){
+    display: none;
+}
+.back{
+    background-image: url(../image/intro_mobile.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+
+.food{
+    height: 100px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width:0) and (max-width:768px){
+    /* md */
+    /* mobile */
+    .king>.row>.box1>ul{
+        width: 100%;
+        justify-content: space-between;
+        padding: 32px !important;
+        direction: ltr;
+    }
+    p:nth-of-type(2){
+       display: none;
+    }
+    .king>.row>.box1>ul>li{
+        display: none;
+    }
+    .king>.row>.box1>ul>li:first-child ,  .king>.row>.box1>ul>li:nth-of-type(2){
+        display: flex !important;
+    }
+    .button{
+        width: 84%;
+        height: 47px;
+        margin: auto !important;
+    }
+    .box2{
+        height: 40%;
+    }
+    .box3{
+        height: 60%;
+        background: #1c961c;
+        padding: 15px !important;
+    }
+}
+@media all and (min-width:769px) and (max-width:991px){
+    /* Tablet */
+    .box3{
+        padding-top: 11% !important;
+        background: #1c961c;
+    }
+    .king>.row>.box1>ul{
+        font-size: 14px;
+    }
+    .button{
+        width: 84%;
+        height: 47px;
+        margin: auto !important;
+    }
+
+ 
+}
+@media all and (min-width:992px) {
+    /* deskTop */
+    .king>.row>.box1>ul{
+        font-size: 18px;
+    }
+    .box3{
+        padding-top: 11% !important;
+        background: #1c961c;
+    }
+    .button{
+        width: 84%;
+        height: 47px;
+        margin: auto !important;
+    }
+}
